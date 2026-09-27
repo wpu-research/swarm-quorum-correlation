@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Shared weights, shared scenes: code and results for measuring error correlation in vision-based UAV swarm quorum decisions"
+authors:
+  - family-names: Arslan
+    given-names: Murat
+    affiliation: "Nişantaşı University, İstanbul, Türkiye"
+    email: marslan@nisantasi.edu.tr
+version: 1.0.0
+date-released: 2026-09-27
+license: MIT
+repository-code: "https://github.com/wpu-research/swarm-quorum-correlation"
+keywords:
+  - UAV swarm
+  - quorum decision
+  - correlated perception
+  - counter-UAV
+  - detector diversity
+  - tetrachoric correlation
+  - Gaussian copula

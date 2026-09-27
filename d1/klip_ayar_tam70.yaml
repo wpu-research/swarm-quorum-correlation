@@ -1,0 +1,84 @@
+arka_planlar:
+  gok:
+    kapali: bos_gok_kapali.png
+    parlak: bos_gok_parlak.png
+  kent:
+    kapali: bos_kent_kapali.png
+    parlak: bos_kent_parlak.png
+  klasor: d1/nesneler/bos
+bozulma:
+  arka_plan_kaydirma_px: 40
+  bulanik_px:
+  - 0
+  - 1.5
+  donme_sigma_derece: 3.0
+  gurultu_sigma:
+    kapali: 9.0
+    parlak: 3.0
+  kaydirma_adim_px: 6
+  kaydirma_sinir_px: 120
+  olcek_sigma: 0.06
+  parlaklik:
+    kapali:
+    - 0.55
+    - 0.8
+    parlak:
+    - 0.9
+    - 1.15
+dedektor:
+  esik: 0.4
+  hailo_hef: /usr/share/hailo-models/yolov8s_h8.hef
+  hedef_siniflar:
+  - drone
+  - airplane
+  - kite
+  yerel_model: yolo11n.pt
+kamera:
+  hfov_derece: 70.0
+kare:
+  fps: 30
+  genislik: 1280
+  gri: true
+  kare_sayisi: 60
+  yukseklik: 720
+mesafeler_m:
+- 3
+- 6
+- 10
+siniflar:
+  bos:
+    kare_sayisi: 180
+    rol: bos
+  direk:
+    boyut_m: 2.5
+    mesafe_carpani: 4
+    ornekler:
+    - direk_01
+    - direk_02
+    rol: tuzak
+  drone:
+    boyut_m: 0.25
+    ornekler:
+    - drone_01
+    rol: hedef
+  insan:
+    boyut_m: 1.75
+    mesafe_carpani: 3
+    ornekler:
+    - insan_01
+    - insan_02
+    - insan_03
+    rol: tuzak
+  kus:
+    boyut_m: 0.4
+    ornekler:
+    - kus_karga
+    - kus_marti
+    - kus_guvercin
+    rol: tuzak
+  leke:
+    acisiz: true
+    boyut_m: 0.6
+    ornekler:
+    - leke
+    rol: tuzak

@@ -1,0 +1,11 @@
+{
+  "title": "Shared weights, shared scenes: code and results for measuring error correlation in vision-based UAV swarm quorum decisions",
+  "upload_type": "software",
+  "description": "Code, result files (JSON) and figures for the manuscript 'Shared Weights, Shared Scenes: Measuring Viewpoint, Condition and Detector Components of Error Correlation for Quorum Decisions in Vision-Based UAV Swarms' (submitted to Drones, MDPI). Includes the synthetic stimulus generator, the multi-detector runner, the tetrachoric-correlation estimator with stratum bootstrap, the Monte-Carlo simulation of quorum rules with measured kernels, and the figure generator.",
+  "creators": [
+    {"name": "Arslan, Murat", "affiliation": "Nişantaşı University"}
+  ],
+  "license": "MIT",
+  "keywords": ["UAV swarm", "quorum decision", "correlated perception", "counter-UAV", "detector diversity", "tetrachoric correlation", "Gaussian copula"],
+  "access_right": "open"
+}

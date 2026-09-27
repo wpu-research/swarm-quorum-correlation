@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+pyyaml
+opencv-python   # stimulus generator (d1_klip.py)
+ultralytics     # detector runs only (d1_coklu.py)
+torch           # detector runs only
