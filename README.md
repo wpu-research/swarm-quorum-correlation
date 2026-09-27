@@ -1,5 +1,7 @@
 # Shared weights, shared scenes — code and results
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22997644.svg)](https://doi.org/10.5281/zenodo.22997644)
+
 Code, result files and figures for the manuscript
 
 > M. Arslan, *Shared Weights, Shared Scenes: Measuring Viewpoint, Condition and Detector Components of Error Correlation for Quorum Decisions in Vision-Based UAV Swarms* (submitted to *Drones*, MDPI, 2026).
@@ -52,4 +54,4 @@ All seeds are fixed. With the JSON files in this repository the figure script re
 
 ## Citation
 
-See `CITATION.cff`. A DOI will be minted through Zenodo for each release.
+See `CITATION.cff`. Archived on Zenodo: https://doi.org/10.5281/zenodo.22997644
